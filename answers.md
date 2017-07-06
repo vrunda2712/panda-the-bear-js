@@ -31,3 +31,39 @@
 --->  highlightcolor = document.querySelectorAll('.highlight');
 
       highlightcolor.forEach(function(item) { item.style.color = 'white'});
+
+
+6. Change the font family of the h1 to 'monospace'.
+
+--->  heading = document.querySelectorAll('h1');
+
+      heading.forEach(function(item) { item.style.fontFamily = 'monospace' });
+
+
+7. Find a way to select the round icons in the sidebar and then change their colour.
+
+--->  icon = document.querySelectorAll('a.action-icon-bg');
+
+      icon.forEach(function(item) { item.style.backgroundColor = '#0b3e1b' });
+
+
+8. Scroll down to the contact form. Change the placeholder attribute of the name field to "identify yourself".
+
+--->  namePlaceholder = document.querySelector('input#name.contact-info');
+
+      namePlaceholder.placeholder = 'Identify yourself';
+
+
+9. Change the placeholder attribute of the message field to "state your business".
+
+--->  messagePlaceholder = document.querySelector('textarea#message');
+
+      messagePlaceholder.placeholder = 'State your business';
+
+
+10. Give the name field a "value" attribute of "your nemesis".
+
+--->  nameField = document.querySelector('input#name.contact-info');
+
+      nameField.value = 'Your nemesis';
+      
