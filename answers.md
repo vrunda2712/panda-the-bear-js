@@ -66,4 +66,32 @@
 --->  nameField = document.querySelector('input#name.contact-info');
 
       nameField.value = 'Your nemesis';
-      
+
+
+11. Change the value attribute of the email field to "koalathebear@gmail.com".
+
+--->  emailField = document.querySelector('input#email.contact-info');
+
+      emailField.value = 'koalathebear@gmail.com';
+
+
+12. Change the value of the submit button on the contact form to "En garde!".
+
+--->  submitButton = document.querySelector('input#submit');
+
+      submitButton.value = 'En garde!';
+
+
+13. We should stop Koala from sending an email to Panda that they might regret! Find a way to disable the submit button (hint: familiarize yourself with the disabled attribute).
+
+--->  submitButton = document.querySelector('input#submit');
+
+      submitButton.disabled = true ;
+
+
+14. We should help Panda protect their privacy by clearing their personal details from the sidebar. You can use reset() to do this.
+
+--->  pandaBio = document.querySelector('ul.bio-info');
+
+      <!-- pandaBio.reset(); -->
+      pandaBio.remove();
